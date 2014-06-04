@@ -10,6 +10,10 @@
 		6062373C193FAE2300AB7F2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6062373B193FAE2300AB7F2C /* AppDelegate.swift */; };
 		6062373E193FAE2300AB7F2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6062373D193FAE2300AB7F2C /* Images.xcassets */; };
 		6062374A193FAE2300AB7F2C /* SwiftTest2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60623749193FAE2300AB7F2C /* SwiftTest2Tests.swift */; };
+		60623755193FAE4200AB7F2C /* SwiftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60623753193FAE4200AB7F2C /* SwiftTableViewController.swift */; };
+		60623756193FAE4200AB7F2C /* SwiftTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60623754193FAE4200AB7F2C /* SwiftTableViewController.xib */; };
+		60623759193FB2E500AB7F2C /* SwiftDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60623757193FB2E500AB7F2C /* SwiftDetailViewController.swift */; };
+		6062375A193FB2E500AB7F2C /* SwiftDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60623758193FB2E500AB7F2C /* SwiftDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +34,10 @@
 		60623743193FAE2300AB7F2C /* SwiftTest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTest2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60623748193FAE2300AB7F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60623749193FAE2300AB7F2C /* SwiftTest2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTest2Tests.swift; sourceTree = "<group>"; };
+		60623753193FAE4200AB7F2C /* SwiftTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTableViewController.swift; sourceTree = "<group>"; };
+		60623754193FAE4200AB7F2C /* SwiftTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftTableViewController.xib; sourceTree = "<group>"; };
+		60623757193FB2E500AB7F2C /* SwiftDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDetailViewController.swift; sourceTree = "<group>"; };
+		60623758193FB2E500AB7F2C /* SwiftDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				6062373B193FAE2300AB7F2C /* AppDelegate.swift */,
+				60623757193FB2E500AB7F2C /* SwiftDetailViewController.swift */,
+				60623758193FB2E500AB7F2C /* SwiftDetailViewController.xib */,
+				60623753193FAE4200AB7F2C /* SwiftTableViewController.swift */,
+				60623754193FAE4200AB7F2C /* SwiftTableViewController.xib */,
 				6062373D193FAE2300AB7F2C /* Images.xcassets */,
 				60623739193FAE2300AB7F2C /* Supporting Files */,
 			);
@@ -183,6 +195,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6062373E193FAE2300AB7F2C /* Images.xcassets in Resources */,
+				6062375A193FB2E500AB7F2C /* SwiftDetailViewController.xib in Resources */,
+				60623756193FAE4200AB7F2C /* SwiftTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6062373C193FAE2300AB7F2C /* AppDelegate.swift in Sources */,
+				60623755193FAE4200AB7F2C /* SwiftTableViewController.swift in Sources */,
+				60623759193FB2E500AB7F2C /* SwiftDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
